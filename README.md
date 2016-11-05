@@ -1,4 +1,4 @@
-## Masnun Bot 
+## Telegram Bot 
 My personal Telegram bot 
 
 #### Goal 
@@ -23,5 +23,5 @@ The following steps should set the project up -
 * Edit `configure.sh` to update your credentials / details
 * `. ./configure.sh`
 * `glide install`
-* `go build`
-* `./masnun-bot`
+* `go build -o bot`
+* `./bot`

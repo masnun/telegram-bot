@@ -1,6 +1,6 @@
 package main
 
-import "github.com/masnun/masnun-bot/tasks"
+import "github.com/masnun/telegram-bot/tasks"
 
 func main() {
 

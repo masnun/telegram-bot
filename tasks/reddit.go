@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/jzelinskie/geddit"
-	"github.com/masnun/masnun-bot/dao"
-	"github.com/masnun/masnun-bot/utils"
+	"github.com/masnun/telegram-bot/dao"
+	"github.com/masnun/telegram-bot/utils"
 )
 
 func PushReddit() {
