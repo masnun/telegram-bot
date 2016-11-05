@@ -31,7 +31,7 @@ func PushReddit() {
 		if exists := dao.Exists(s.Permalink); !exists {
 			fmt.Printf("Title: %s\nAuthor: %s\n\n", s.Title, s.Permalink)
 			dao.Create(s.Permalink)
-			utils.SendTelegramMessage(fmt.Sprintf("New reddit post: %s", s.Permalink))
+			utils.SendTelegramMessage(fmt.Sprintf("%s : https://www.reddit.com/%s", s.Title, s.Permalink))
 		} else {
 			fmt.Println("Exists: ", s.Permalink)
 		}

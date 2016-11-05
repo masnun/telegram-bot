@@ -1,0 +1,4 @@
+export REDDIT_USERNAME=""
+export REDDIT_PASSWORD=""
+export TELEGRAM_KEY=""
+export TELEGRAM_OWNER_CHATID=""

@@ -7,7 +7,7 @@ import (
 
 // Init - Initialize database and return a  handler
 func Init() *gorm.DB {
-	db, err := gorm.Open("sqlite3", "test.db")
+	db, err := gorm.Open("sqlite3", "telegram.db")
 	if err != nil {
 		panic("failed to connect database")
 	}
