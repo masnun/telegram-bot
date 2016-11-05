@@ -6,6 +6,7 @@ import (
 
 	"github.com/jzelinskie/geddit"
 	"github.com/masnun/masnun-bot/dao"
+	"github.com/masnun/masnun-bot/utils"
 )
 
 func PushReddit() {
@@ -30,6 +31,7 @@ func PushReddit() {
 		if exists := dao.Exists(s.Permalink); !exists {
 			fmt.Printf("Title: %s\nAuthor: %s\n\n", s.Title, s.Permalink)
 			dao.Create(s.Permalink)
+			utils.SendTelegramMessage(fmt.Sprintf("New reddit post: %s", s.Permalink))
 		} else {
 			fmt.Println("Exists: ", s.Permalink)
 		}

@@ -5,3 +5,7 @@ import:
   subpackages:
   - dialects/sqlite
 - package: github.com/jzelinskie/geddit
+- package: gopkg.in/telegram-bot-api.v4
+  version: ^4.5.1
+- package: github.com/technoweenie/multipartstreamer
+  version: ^1.0.1

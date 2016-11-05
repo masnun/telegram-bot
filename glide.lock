@@ -1,5 +1,5 @@
-hash: fc316a2131a8916036f3b6682cad7cbef2b26c433400ca8235654b15d9390ee8
-updated: 2016-11-05T09:42:03.60234767+06:00
+hash: 6b77967d04a7776f3ed5b6fd90970ebbe38c550123e14841dda7a83f0e5948e3
+updated: 2016-11-05T10:26:08.134564481+06:00
 imports:
 - name: github.com/google/go-querystring
   version: 9235644dd9e52eeae6fa48efd539fdc351a0af53
@@ -15,8 +15,12 @@ imports:
   version: 4c36fbd6d900519bb9633b55d1a4e0b9c74cb16c
 - name: github.com/mattn/go-sqlite3
   version: cde7293c72308f3cc5b57bfa65e162fb868470d8
+- name: github.com/technoweenie/multipartstreamer
+  version: a90a01d73ae432e2611d178c18367fbaa13e0154
 - name: golang.org/x/net
   version: 55a3084c9119aeb9ba2437d595b0a7e9cb635da9
   subpackages:
   - context
+- name: gopkg.in/telegram-bot-api.v4
+  version: a7f48eb2dd301356942677e65bebe0c9aef07013
 testImports: []
