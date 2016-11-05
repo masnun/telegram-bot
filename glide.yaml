@@ -1,0 +1,7 @@
+package: github.com/masnun/masnun-bot
+import:
+- package: github.com/jinzhu/gorm
+  version: ^1.0.0
+  subpackages:
+  - dialects/sqlite
+- package: github.com/jzelinskie/geddit

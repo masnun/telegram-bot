@@ -1,0 +1,22 @@
+hash: fc316a2131a8916036f3b6682cad7cbef2b26c433400ca8235654b15d9390ee8
+updated: 2016-11-05T09:42:03.60234767+06:00
+imports:
+- name: github.com/google/go-querystring
+  version: 9235644dd9e52eeae6fa48efd539fdc351a0af53
+  subpackages:
+  - query
+- name: github.com/jinzhu/gorm
+  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
+  subpackages:
+  - dialects/sqlite
+- name: github.com/jinzhu/inflection
+  version: 74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff
+- name: github.com/jzelinskie/geddit
+  version: 4c36fbd6d900519bb9633b55d1a4e0b9c74cb16c
+- name: github.com/mattn/go-sqlite3
+  version: cde7293c72308f3cc5b57bfa65e162fb868470d8
+- name: golang.org/x/net
+  version: 55a3084c9119aeb9ba2437d595b0a7e9cb635da9
+  subpackages:
+  - context
+testImports: []
